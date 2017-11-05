@@ -1,5 +1,7 @@
 # ref_parser
-Reference parser that extracts references from all kinds of files. It uses Google Scholar engine to obtain corresponding BibTex info. 
+Reference parser that extracts references from all kinds of files. It uses Google Scholar engine to obtain corresponding BibTex info.
+
+Supports .PDF, .DOCX, .HTML and .TXT files.
 ## Thanks to
 * [gscholar](https://github.com/venthur/gscholar)
 * [textract](https://github.com/deanmalmgren/textract)
