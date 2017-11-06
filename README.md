@@ -7,7 +7,7 @@ Supports .PDF, .DOCX, .HTML and .TXT files.
 * [textract](https://github.com/deanmalmgren/textract)
 ## Requirements
 * python
-* textract
+* [textract](https://github.com/deanmalmgren/textract)
 ## Installation
 ### Install "textract" package
 #### Ubuntu / Debian
@@ -36,6 +36,7 @@ It's simple:
 ```
 python ref_parser.py input output
 ```
+The output is in standard BibTex format.
 Enjoy!
 ## Important information
 Remember, Google only allows a single ip to get couple hundreds of bibtex info PER DAY. If you parse too fast in a short amount of time, you'll be banned for a day. Use the service moderately, and always set an interval between each query. Default interval setting is 20-30 seconds. Do not make it less than 10 seconds, users are responsible for use of this script. 
