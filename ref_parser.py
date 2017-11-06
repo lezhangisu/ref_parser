@@ -169,7 +169,7 @@ if __name__ == "__main__":
     out = open(sys.argv[2],'w')
     for bib in reversed(bibs): # print results from head to tail
         # print bib
-        out.write(bib)
+        out.write(bib.encode('ascii','ignore')encode('utf-8'))
     # print get_cookie(FORMAT_BIBTEX)
     # text = 'J. Li, X. Chen, M. Li, P. P. C. Lee, and W. Lou. Secure dedupli-cation with efficient and reliable convergent key management. TPDS,25(6):1615–1625, 2014.'
     # print query(text)[0]
